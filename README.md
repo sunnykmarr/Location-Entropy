@@ -3,11 +3,11 @@ Location entropy is a way to find out how famous partcular place is in terms of 
 
 This repository contains the program (location_entropy.py) to find out the location entropy of given venues.
 
-# Requirement:
-1. Python 2/3.
+# Requirement
+1. Python 2/3
 2. Pandas
 
-# How to run?:
+# How to run?
 Customer can download or clone this repository. He need to have a user location visit file (csv file containing two coloumns 'userId' and 'venueId', there can more than these coloumns but those will not be used in program). For testing purpose two input files has been given here which can be used to test the program. 'sample_input' is a very small file to test and 'dataset_TSMC2014_NYC.csv' is dataset taken from kaggle dataset on NYC and Tokyo checkin(https://www.kaggle.com/chetanism/foursquare-nyc-and-tokyo-checkin-dataset).
 The program output has been tested on both samples and giving good result with time complexity O(n) and space complexity O(n).
 
